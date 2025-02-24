@@ -7,11 +7,7 @@ data = [
     ("Congratulations! You won a lottery!", "spam"),
     ("Please review the attached report.", "ham"),
 ]
-
-X_train, y_train = zip(*data)
-vectorizer = CountVectorizer()
-X_train_counts = vectorizer.fit_transform(X_train)
-
+// thenunmber pf usern to be includefor the mostt of the technologies used in this therefore it is used in many ways ti aadvanscce diibdf 
 clf = MultinomialNB()
 clf.fit(X_train_counts, y_train)
 
